@@ -1,0 +1,66 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+
+    
+}
+
+.container{
+    background-color: rgba(44, 42, 42, 0.548);
+    font-family: 'Lucida Sans';
+    border-radius: 25px;
+    padding: 50px;
+    width: 1000px;
+    margin: auto;   
+}
+span >img{
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: lawngreen;
+}
+
+.bottoni{
+    background-color: lawngreen;
+    text-align: center;
+    border-radius: 5px;
+    height: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h2,span,p{
+    color: white;
+}
+
+.Freccia:before{
+    content: "\2192";
+}
+
+.arancione{
+    border-radius: 5px;
+    height: 30px;
+    margin-right: 70%;
+    border: solid orange;
+    background-color: orange;
+}
+
+.Verde{
+    border-radius: 5px;
+    height: 30px;
+    margin-right: 40%;
+    border: solid lawngreen;
+    background-color: lawngreen;
+
+}
+.Rosso{
+    border-radius: 5px;
+    height: 20px;
+    margin-right: 85%;
+    border: solid red;
+    background-color: red;
+}
